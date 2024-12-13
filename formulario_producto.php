@@ -40,6 +40,25 @@
 
             <button type="submit" class="btn btn-primary">Guardar Producto</button>
         </form>
+
+        <hr>
+        <h2>Lista de Productos</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Fecha de Creación</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tablaProductos">
+                <!-- Los datos se cargarán aquí con AJAX -->
+            </tbody>
+        </table>
     </div>
 
     <!-- Incluir Bootstrap JS -->
